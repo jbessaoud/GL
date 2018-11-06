@@ -2,10 +2,9 @@
 //
 
 #include "my_header.h"
+#include <stdio.h>
 
-int main(void)
-{
-	
-	printf("toto");
-    return 0;
+int main(void){
+    printf("DZ");
+	return 0;
 }
