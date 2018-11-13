@@ -1,9 +1,16 @@
-//  Copyright (c) 2018 Antoine Tran Tan
-//
-
 #include "my_header.h"
 
-int main(void)
-{
+int s1(void);
+
+int main(void){
+	
+	
+	
     return 0;
+}
+
+int s1(void){
+	 int n = 1, s1;
+	 
+	 
 }
