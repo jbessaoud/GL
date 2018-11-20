@@ -39,9 +39,19 @@ int quest2(){
 
 //question 3
 int quest3(){
-	int dist[10]={58,213,216,10,150,6,3,2,500,4}, i3;
+	int dist[10]={58,213,216,10,150,6,3,2,500,4}, i3, nbmax, nbmin;
 	
-	
+	for(i3=1; i3<10;i3++){
+		if(dist[i3]>dist[i3-1]){
+			nbmax=dist[i3];
+			nbmin=dist[i3-1];
+		}
+		else{
+			nbmin=dist[i3];
+			nbmax=dist[i3-1];
+		}
+		
+		dist[i3]=nbmax-nbmin;
 	}
 	
 	return 0;
@@ -49,8 +59,9 @@ int quest3(){
 
 
 int main(void){
-	quest1();
-	quest2();
+	//quest1();
+	//quest2();
+	quest3();
 }
 
 
