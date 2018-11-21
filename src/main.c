@@ -64,6 +64,8 @@ int quest4(){
 	for(i4=0; i4<5; i4++){
 		b[i4]=a[4-i4];
 	}
+	
+	return 0;
 }
 
 //question 5
@@ -71,8 +73,10 @@ int quest5(){
 	int miroir[10]={1,2,3,4,5}, i5;
 
 	for(i5=0;i5<5;i5++){
-		mirroir[i5+5]=mirroir[4-i5];
+		miroir[i5+5]=miroir[4-i5];
 	}
+	
+	return 0;
 }
 
 int main(void){
