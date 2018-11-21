@@ -57,12 +57,30 @@ int quest3(){
 	return 0;
 }
 
+//question 4
+int quest4(){
+	int a[5]={1,5,9,8,11}, b[5]={0,1,2,3,4}, i4;
 
-int main(void){
-	//quest1();
-	//quest2();
-	quest3();
+	for(i4=0; i4<5; i4++){
+		b[i4]=a[4-i4];
+	}
 }
 
+//question 5
+int quest5(){
+	int miroir[10]={1,2,3,4,5}, i5;
 
+	for(i5=0;i5<5;i5++){
+		mirroir[i5+5]=mirroir[4-i5];
+	}
+}
 
+int main(void){
+	quest1();
+	quest2();
+	quest3();
+	quest4();
+	quest5();
+
+	return 0;
+}
