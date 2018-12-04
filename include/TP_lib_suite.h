@@ -8,7 +8,7 @@ Version : nov 2011
 Fichier : TP_lib_suite.H
 ************************************************
 
-/* voir descriptif dans le TD des thèmes précédents */
+/* voir descriptif dans le TD des thï¿½mes prï¿½cï¿½dents */
 
 /*----------- loto ------------*/
 void  initialiserTirage(void);
@@ -17,7 +17,7 @@ short tirerNumero(void);
 /*----------- genetique ------------*/
 char  tirerNucleotide(void);    
 
-/*----------- lancer dé ------------*/
+/*----------- lancer dï¿½ ------------*/
 long int  JouerUnTour ( void ) ;  
 
 

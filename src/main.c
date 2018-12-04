@@ -3,19 +3,20 @@
 #include "bras.h"
 
  int main(void){
-	unsigned char i=0, max=0, nb;
-	int n;
+	char phrase [100]= "Je m'appelle prenom nom et je suis ne en annee";
+	char nom [100];
+	char prenom [100];
+	unsigned long int annee=2000;
 	
-	for(i=0; i<100; i++){
-		tirer();
-		nb=bon_nb();
-		if(max<nb){
-			max=nb;
-		}
-		
-	}
+	printf("Veiller taper votre nom: ");
+	scanf("%s", nom);
+	printf("Veiller taper votre prenom: ");
+	scanf("%s", prenom);
+	printf("Veiller taper votre annee de naissance: ");
+	scanf("%lu", &annee);
+	sprintf(phrase, "Je m'appelle %s %s et je suis ne en %lu", prenom, nom, annee);
 	
-	n=(rand() % 49 + 1);
+	printf ("%s\0", phrase);
 	
 	return 0;
 }
